@@ -4,6 +4,8 @@
 
 #To test your solution run `rspec teenager_spec.rb` in your terminal
 
-def is_a_teenager?
-  #code goes here
+
+
+def is_a_teenager?(num)
+  num > 12 && num < 20
 end
